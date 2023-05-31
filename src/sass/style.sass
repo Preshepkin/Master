@@ -1,21 +1,45 @@
-
+@import 'blocks/variables'
 
 
 .container
-	max-width: 1140px
+	max-width: 1900px
 	margin: 0 auto
+.main
+	min-height: 900px
+	background: url('../img/shutterstock.jpg') center center/cover no-repeat
+	&_button
+		margin-top: 35px
+		margin-left: 20px
+		width: 165px
+		height: 50px
+		color: #fff
+		border-radius: 5px
+		font-weight: 700
+		font-size: 14px
+		background: transparent
+		cursor: pointer
+		&:hover
+			color: black
+		
+	&_logo
+		margin-top: 10px	
+.logo_main	
+		width: 100%
+		max-width: 80px
+
 header
-	
 	min-height: 120px
-	background-color: #f9d61f
+	background-color: $main-color
 .mainheader
 	display: flex	
-	justify-content: space-between
+	justify-content: end
 	align-items: center
+	
 	
 	&_list	
 		margin-top: 40px
 		font-family: 'Poppins'
+		font-style: normal
 		font-weight: 600
 		text-transform: uppercase
 		padding: 8px 15px
@@ -30,35 +54,47 @@ header
 			&_phone
 				margin-top: 35px
 				font-weight: 600
+				font-style: normal
+				font-family: 'Poppins'
 				text-decoration: none
 				text-transform: uppercase
 				font-size: 18px	
 				color:#030303fc
+				padding: 8px 15px
 				&:hover
 					color:#fafafbfc	
 				&_time	
 					color:#000000fc
 					text-decoration: none	
-					margin-left: 5px
+					margin-left: 20px
 					&:hover
 						color:#fafafbfc		
-.main
-	min-height: 900px
-	background: url('../img/shutterstock.jpg') center center/cover no-repeat
-	&_button
-		margin-top: 35px
-		width: 165px
-		height: 50px
-		color: #fff
-		border-radius: 5px
-		font-weight: 700
-		font-size: 14px
-		background: transparent
-		cursor: pointer
-		transition: all 0.3s ease
-		display: inline-block
-	&_logo	
-		width: 100%
-		max-width: 80px
 
-	
+.husband
+	&_title
+		margin-top: 50px
+		margin-left: 140px
+		font-family: 'Poppins'
+		font-style: normal
+		font-weight: 600
+		font-size: 86px
+		color:#333232fc
+		span
+			font-family: 'Poppins'
+			color: $main-color
+	&_item	
+		margin-top: 50px
+		line-height: 20px
+		&_list
+			list-style: none
+			font-family: 'Nunito'
+			font-size: 20px
+			font-weight: 300
+			font-style: normal
+			
+			
+			span
+				color:#000000fc
+				font-style: normal
+				font-weight: 700
+				
