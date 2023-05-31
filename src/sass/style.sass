@@ -1,18 +1,19 @@
-@import 'blocks/variables'
+@import 'base/variables'
+@import  'base/animated'
 
 
 .container
-	max-width: 1900px
+	max-width: 100%
 	margin: 0 auto
 .main
-	min-height: 900px
-	background: url('../img/shutterstock.jpg') center center/cover no-repeat
+	min-height: 1000px
+	background: url('../img/tool.jpg') center center/cover no-repeat
 	&_button
 		margin-top: 35px
 		margin-left: 20px
 		width: 165px
 		height: 50px
-		color: #fff
+		color: white
 		border-radius: 5px
 		font-weight: 700
 		font-size: 14px
@@ -20,6 +21,10 @@
 		cursor: pointer
 		&:hover
 			color: black
+			
+
+		
+		
 		
 	&_logo
 		margin-top: 10px	
@@ -43,14 +48,13 @@ header
 		font-weight: 600
 		text-transform: uppercase
 		padding: 8px 15px
-		// margin-top: 45px
 		list-style: none
 		&_link
 			margin-top: 40px
 			color:#000000fc
 			text-decoration: none
 			&:hover
-				color:#fafafbfc
+				color: white
 			&_phone
 				margin-top: 35px
 				font-weight: 600
@@ -62,18 +66,18 @@ header
 				color:#030303fc
 				padding: 8px 15px
 				&:hover
-					color:#fafafbfc	
+					color: white	
 				&_time	
 					color:#000000fc
 					text-decoration: none	
 					margin-left: 20px
 					&:hover
-						color:#fafafbfc		
+						color: white	
 
 .husband
 	&_title
 		margin-top: 50px
-		margin-left: 140px
+		margin-left: 110px
 		font-family: 'Poppins'
 		font-style: normal
 		font-weight: 600
@@ -83,18 +87,51 @@ header
 			font-family: 'Poppins'
 			color: $main-color
 	&_item	
+		position: relative
 		margin-top: 50px
-		line-height: 20px
+		
 		&_list
+			position: relative
+			margin-top: 20px
 			list-style: none
 			font-family: 'Nunito'
 			font-size: 20px
 			font-weight: 300
 			font-style: normal
-			
-			
 			span
 				color:#000000fc
 				font-style: normal
 				font-weight: 700
-				
+			&:before
+				content: ''
+				position: absolute	
+				top: 4px
+				left: -30px
+				transform: translateX(-50%)
+				width: 30px
+				height: 30px	
+				background: url('../icons/black.svg') center center/cover no-repeat			
+	&_button
+		display: block
+		margin-top: 50px
+		margin-left: 65px
+		font-weight: 700
+		padding: 16px 55px 16px 55px			
+		background-color: $main-color
+		border: 0
+		box-shadow: 0px 0px 20px	
+		&:hover
+			color: white
+		&__pulse
+			&_animation 
+				animation-name: heartbeat
+				&:hover	
+					animation-duration: 1.8s
+					animation-timing-function:linear(15, end)
+					animation-iteration-count: infinite
+					animation-play-state: running	
+		
+
+
+
+	
