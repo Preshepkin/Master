@@ -1,9 +1,14 @@
-@import 'base/variables'
-@import  'base/animated'
+*
+	font-family: 'Roboto', sans-serif 
+
+@import	'base/variables'
+@import	'base/buttons'
+@import	'base/animated'
+
 
 
 .container
-	max-width: 1340px
+	max-width: 1320px
 	margin: 0 auto
 
 
@@ -13,28 +18,6 @@
 .main
 	min-height: 645px
 	background: url('../img/too.jpg') center center/cover no-repeat
-	&_button
-		margin-top: 35px
-		margin-left: 20px
-		width: 165px
-		height: 50px
-		color: white
-		border-radius: 5px
-		font-weight: 700
-		font-size: 14px
-		background: transparent
-		cursor: pointer
-		box-shadow: 0 0 20px 3px
-		&:hover
-			color: black
-		&__pulse
-			&_animation 
-				animation-name: stretching
-				&:hover	
-					animation-duration: 1.8s
-					animation-timing-function: linear(15, end)
-					animation-iteration-count: infinite
-					animation-play-state: running	
 	&_logo
 		margin-top: 10px
 .logo_main	
@@ -126,23 +109,7 @@ header
 				width: 25px
 				height: 25px	
 				background: url('../icons/black.svg') center center/cover no-repeat			
-	&_button
-		display: block
-		margin-top: 85px
-		font-weight: 700		
-		background-color: $main-color
-		border: 0
-		box-shadow: 0px 0px 20px 3px	
-		width: 320px
-		height: 60px
-		&__pulse
-			&_animation 
-				animation-name: heartbeat
-				&:hover	
-					animation-duration: 1.8s
-					animation-timing-function: linear(15, end)
-					animation-iteration-count: infinite
-					animation-play-state: running	
+
 .professionals
 	min-height: 840px
 	background-color: #f3f5f8	
@@ -189,8 +156,8 @@ header
 	&_item
 		margin-top: 50px
 		&_imeg	
-			width: 435px
-			height: 350px
+			width: 420px
+			height: 320px
 		&_descr
 			margin-top: 20px
 			color: #000000
@@ -198,11 +165,9 @@ header
 			font-size: 20px
 			font-weight: 700
 			text-align: left
-			// margin-left: 63px
 	&_button
 		display: block
 		margin-top: 20px
-		// margin-left: 63px
 		font-size: 16px
 		font-weight: 700	
 		background-color: $main-color
@@ -235,7 +200,6 @@ header
 			text-align: center
 			line-height: 30px
 .grid-container
-	width: 100%
 	display: grid
 	margin-top: 50px
 	justify-content: center
@@ -302,16 +266,16 @@ header
 		&_item
 			width: 470px
 	&_phone
-		margin-top: 70px
+		margin-top: 65px
 		font-family: 'Roboto'
-		font-size: 20px
+		font-size: 23px
 		font-weight: 700
 		text-align: center
 		color: #000000
 	&_descr	
 		margin-top: 55px
 		font-family: 'Roboto'
-		font-size: 20px
+		font-size: 23px
 		font-weight: 700
 		text-align: center
 		color: #000000
@@ -322,9 +286,9 @@ header
 		input
 			padding: 30px
 			border-radius: 5px
-			width: 320px
+			width: 100%
 			height: 60px
-			color: $main-color
+			color: #000000
 			background-color: #fff
-			border: 1px solid $main-color
+			border: 1px solid #000000
 			margin-bottom: 30px
