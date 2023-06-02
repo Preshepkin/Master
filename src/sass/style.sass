@@ -4,11 +4,15 @@
 
 .container
 	max-width: 1340px
-	// max-width: 100%
 	margin: 0 auto
+
+
+
+
+
 .main
-	min-height: 850px
-	background: url('../img/tools.jpg') center center/cover no-repeat
+	min-height: 645px
+	background: url('../img/too.jpg') center center/cover no-repeat
 	&_button
 		margin-top: 35px
 		margin-left: 20px
@@ -32,14 +36,17 @@
 					animation-iteration-count: infinite
 					animation-play-state: running	
 	&_logo
-		margin-top: 10px	
+		margin-top: 10px
 .logo_main	
 		width: 100%
 		width: 115px
 
 header
+	
+	width: 100%
 	min-height: 120px
 	background-color: $main-color
+
 .mainheader
 	display: flex	
 	justify-content: end
@@ -52,7 +59,7 @@ header
 		font-style: normal
 		font-weight: 700
 		text-transform: uppercase
-		padding: 8px 15px
+		padding: 0px 10px
 		list-style: none
 		&_link
 			margin-top: 40px
@@ -78,21 +85,25 @@ header
 					margin-left: 20px
 					&:hover
 						color: white	
+	// span
+	// 	display: flex
+	// 	flex-wrap: wrap
+
 
 .husband
 	&_title
-		margin-top: 105px
-		margin-left: 110px
+		margin-top: 40px
 		font-family: 'Roboto'
 		font-style: normal
 		font-weight: 700
 		font-size: 86px
-		color:#000000fc
 		span
 			font-family:'Roboto'
+			font-weight: 700
 			color: $main-color
 	&_item	
-		margin-top: 50px
+		margin-top: 15px
+		padding-left: 35px
 		
 		&_list
 			position: relative
@@ -109,21 +120,21 @@ header
 			&:before
 				content: ''
 				position: absolute	
-				top: 7px
-				left: -30px
+				top: 5px
+				left: -23px
 				transform: translateX(-50%)
-				width: 30px
-				height: 30px	
+				width: 25px
+				height: 25px	
 				background: url('../icons/black.svg') center center/cover no-repeat			
 	&_button
 		display: block
-		margin-top: 50px
-		margin-left: 65px
-		font-weight: 700
-		padding: 16px 55px 16px 55px			
+		margin-top: 85px
+		font-weight: 700		
 		background-color: $main-color
 		border: 0
 		box-shadow: 0px 0px 20px 3px	
+		width: 320px
+		height: 60px
 		&__pulse
 			&_animation 
 				animation-name: heartbeat
@@ -135,27 +146,26 @@ header
 .professionals
 	min-height: 840px
 	background-color: #f3f5f8	
-	padding: 70px 0 0 0 
+	padding: 70px 0px 0px 0px 
 	&_title
-		font-family: Poppins
+		font-family: 'Roboto'
 		font-size: 40px
 		font-weight: 500
 		text-align: center
 		&_descr	
-			margin-top: 60px
+			margin-top: 35px
 			font-family: 'Roboto'
 			font-size: 18px
 			font-weight: 300
-			letter-spacing: 0.1px
 			text-align: center
 			color:#000000fc
 	&_items
 		margin-top: 70px
 		display: flex
-		justify-content: space-evenly
+		justify-content: space-between
 		&_icons
 			&_logo
-				width: 321px
+				// width: 321px
 				height: 321px
 				&:hover	
 					transform: scale(1.2)
@@ -170,17 +180,16 @@ header
 		
 .services
 	background-color: #ffffff	
-	padding: 70px 0 120px 0 
+	padding: 70px 0px 70px 0px 
 	&_title
 		font-family: 'Roboto'
 		font-size: 40px
 		font-weight: 700
 		text-align: center
 	&_item
-		text-align: center
-		margin-top: 80px
+		margin-top: 50px
 		&_imeg	
-			width: 483px
+			width: 435px
 			height: 350px
 		&_descr
 			margin-top: 20px
@@ -189,11 +198,11 @@ header
 			font-size: 20px
 			font-weight: 700
 			text-align: left
-			margin-left: 63px
+			// margin-left: 63px
 	&_button
 		display: block
 		margin-top: 20px
-		margin-left: 63px
+		// margin-left: 63px
 		font-size: 16px
 		font-weight: 700	
 		background-color: $main-color
@@ -253,15 +262,15 @@ header
 			display: flex
 			justify-content: center
 			align-items: center
-			width: 90px
-			height: 90px
+			width: 75px
+			height: 75px
 			background:$main-color	
 			margin-right: 20px
 			border-radius: 50%
 			&_number	
 				font-family: 'Roboto'	
 				font-weight: 700
-				font-size: 40px
+				font-size: 30px
 			&_descr
 				width: 440px
 			&_title
@@ -278,16 +287,44 @@ header
 				font-style: normal
 				color: #000000
 			
-
-		// border-radius: 50%;
-		// -moz-border-radius: 50%;
-		// -webkit-border-radius: 50%;
-		// display: block;
-		// width: 60px;
-		// height: 60px;
-		// text-align: center;
-		// font-size: 20px;
-		// line-height: 60px;
-		// color: #fff;
-		// overflow: hidden;
-		// white-space: nowrap;
+.contacts
+	margin-bottom: 150px
+	&_title	
+		margin-top: 120px
+		font-family: 'Roboto'
+		font-size: 40px
+		font-weight: 700
+		text-align: center
+	&_wrapper
+		margin-top: 50px
+		display: flex
+		justify-content: center
+		&_item
+			width: 470px
+	&_phone
+		margin-top: 70px
+		font-family: 'Roboto'
+		font-size: 20px
+		font-weight: 700
+		text-align: center
+		color: #000000
+	&_descr	
+		margin-top: 55px
+		font-family: 'Roboto'
+		font-size: 20px
+		font-weight: 700
+		text-align: center
+		color: #000000
+	&_form	
+		margin-top: 50px
+		display: flex
+		flex-direction: column
+		input
+			padding: 30px
+			border-radius: 5px
+			width: 320px
+			height: 60px
+			color: $main-color
+			background-color: #fff
+			border: 1px solid $main-color
+			margin-bottom: 30px
