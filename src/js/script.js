@@ -8,12 +8,12 @@ $( document ).ready(function() {
 		$('.overlay, #consultation').fadeOut('slow');
 	});
 
-	// $('.button_mini').each(function(i) {
-	// 	$(this).on('click', function() {
-	// 		$('#order .madal__descr').text($('.catalog-item__subtitle').eq(i).text());
-	// 		$('.overlay, #order').fadeIn('slow');
-	// 	})
-	// });
+	$('.button_modal').each(function(i) {
+		$(this).on('click', function() {
+			$('#order .madal__descr').text($('.catalog-item__subtitle').eq(i).text());
+			$('.overlay').fadeIn('slow');
+		})
+	});
 	
 	function validateForms(form){
         $(form).validate({
