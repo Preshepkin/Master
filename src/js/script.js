@@ -10,8 +10,8 @@ $( document ).ready(function() {
 
 	$('.button_modal').each(function(i) {
 		$(this).on('click', function() {
-			$('#order .madal__descr').text($('.catalog-item__subtitle').eq(i).text());
-			$('.overlay').fadeIn('slow');
+			$('#consultation');
+			$('.overlay, #consultation').fadeIn('slow');
 		})
 	});
 	

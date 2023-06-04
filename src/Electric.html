@@ -1,18 +1,443 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electric</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/electric.style.min.css">
+	<link rel="icon" href="icons/favicon.png" type="image/x-icon">
+	<title>Electric</title>
 </head>
 <body>
-    ЭЛЕКТРИКА
-    ЭЛЕКТРИКА
-    ЭЛЕКТРИКА
-    ЭЛЕКТРИКА
-    ЭЛЕКТРИКА
-    ЭЛЕКТРИКА
+	<section class="main">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
+						<div class="main_logo">
+							<a class="main_logo_link" href="#">
+								<img src="icons/logo.png" alt="logo" class="logo_main">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<menu class="mainheader">
+							<li class="mainheader_list"><a href="index.html" class="mainheader_list_link">МАСТЕР НА ЧАС</a></li>
+							<li class="mainheader_list"><a href="electric.html" class="mainheader_list_link">ЭЛЕКТРИКА</a></li>
+							<li class="mainheader_list"><a href="Plumbing.html" class="mainheader_list_link">САНТЕХНИКА</a></li>
+							<li class="mainheader_list"><a href="Reviews" class="mainheader_list_link">ОТЗЫВЫ</a></li>
+							<li class="mainheader_list"><a href="#" class="mainheader_list_link">🕗 Ежедневно с 7 до 23</a></li>
+							<li class="mainheader_list"><a href="#" class="mainheader_list_link">+7 (495) 266 56 86 
+									<span>Ежедневно с 7 до 23</span>
+								</a>
+							</li>
+						</menu>
+					</div>
+					<div class="col-md-2">
+						<button  data-modal="consultation" class="button_main button_main__pulse_animation">Обратный звонок</button>
+					</div>
+				</div>
+			</div>
+		</header>
 
+		<div class="container">	
+			<h1 class="husband_title">
+				
+					Услуги <span>электрика</span> на дому
+			</h1>
+				<div class="row">
+					<div class="col-md-5">
+						<ul class="husband_item">
+							<li class="husband_item_list">Мастера проходят  <br><span>ежедневную проверку медработниками</span></li>
+							<li class="husband_item_list"><span>Без</span> повышения цен</li>
+						</ul>	
+						<div class="col-md-5">
+							<button  data-modal="consultation" class="button_submain button_submain__pulse_animation" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<ul class="husband_item">
+							<li class="husband_item_list">Выезжаем за 30 минут по <br><span>Москве и МО</span></li>
+							<li class="husband_item_list">Оплата <span>переводом мастеру на карту</span> или наличными</li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+</section>
+
+	<section class="professionals">
+		<div class="container">
+			<h2 class="professionals_title">
+				Доверяйте только профессионалам</h2>
+				<div class="professionals_title_descr">
+					Мастер на час — это особый вид ремонта. Чтобы качественно оказывать услуги нужна подготовка и знания.  Уделяем особое внимание
+				<br>	отбору специалистов, ведь мы отвечаем за качество работы каждого нашего мастера.
+				</div>
+				<div class="professionals_items">
+					<div class="professionals_items_icons">
+						<img src="icons/guarantee.png" alt="garantiya" class="professionals_items_icons_logo">
+						<div class="professionals_descr">
+							Гарантия на все виды работ
+						</div>
+					</div>
+					<div class="professionals_items_icons">
+						<img src="icons/departure.png" alt="departure" class="professionals_items_icons_logo">
+						<div class="professionals_descr">
+							Бесплатный выезд мастера
+						</div>
+					</div>
+					<div class="professionals_items_icons">
+						<img src="icons/slavs.png" alt="slavs" class="professionals_items_icons_logo">
+						<div class="professionals_descr">
+							Мастера славяне, опыт работы от 8 лет
+						</div>
+					</div>
+				</div>
+			</div>	
+	</section>
+
+	<section class="services">
+		<h2 class="services_title">Наши услуги</h2>	
+			<div class="container  text-center">
+				<div class="row">
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/Emergency.jpg" alt="Emergency" class="services_item_imeg">
+
+							<div class="services_item_descr">Аварийный ремонт электрики <br> от 280 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/diagnostics.jpg" alt="diagnostics" class="services_item_imeg">
+
+							<div class="services_item_descr">Диагностика электропроводки <br>от 150 р</div>	
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/troubleshooting.jpg" alt="troubleshooting" class="services_item_imeg">
+
+							<div class="services_item_descr">Устранение замыкания<br> от 280 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/outlet.jpg" alt="outlet" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка розетки <br> от 160 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/chandelier.jpg" alt="chandelier" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка люстры <br> от 400 р</div>	
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/switch.jpg" alt="switch" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка выключателя <br> от 160 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/machine.jpg" alt="machine" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка автомата<br> от 280 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/panel.jpg" alt="" class="services_item_imeg">
+
+							<div class="services_item_descr">Монтаж щитка электрического <br> от 400 р</div>	
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/box.jpg"  alt="box" class="services_item_imeg">
+
+							<div class="services_item_descr">Монтаж распаячной коробки<br> от 280 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/washing.jpg" alt="washing" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка стиральной машины <br> от 550 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/installation.jpg" alt="installation" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка посудомоечной машины <br> от 800 р</div>	
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/heater.jpg" alt="heater.jpg" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка водонагревателя <br> от 900 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/rcd.jpg" alt="rcd" class="services_item_imeg">
+
+							<div class="services_item_descr">Монтаж УЗО <br> от 350 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/meter.jpg" alt="meter" class="services_item_imeg">
+
+							<div class="services_item_descr">Монтаж счетчика электроэнергии <br> от 400 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/stabilizer.jpg" alt="stabilizer" class="services_item_imeg">
+
+							<div class="services_item_descr">Монтаж стабилизатора напряжения <br> от 1200 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/underfloor.jpg" alt="underfloor " class="services_item_imeg">
+
+							<div class="services_item_descr">Установка <br>
+								теплого пола <br> от 450 р за м2</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/boilers.jpg" alt="boilers" class="services_item_imeg">
+
+							<div class="services_item_descr">Ремонт водонагревателей <br>
+								(бойлеров) <br> от 1200 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/hoods.jpg" alt="hoods" class="services_item_imeg">
+
+							<div class="services_item_descr">Установка <br>
+								вытяжки <br> от 900 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service_electric/stove.jpg" alt="stove " class="services_item_imeg">
+
+							<div class="services_item_descr">Установка электроплиты <br> от 700 р</div>
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="Advantages">
+		<h2 class="Advantages_title">Преимущества</h2>
+		<div class="container">
+			<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+				<li class="nav-item" role="presentation">
+				  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Ремонт в день обращения</button>
+				</li>
+				<li class="nav-item" role="presentation">
+				  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Работаем со своим и с вашим материалом</button>
+				</li>
+				<li class="nav-item" role="presentation">
+				  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Гарантия 3 года</button>
+				</li>
+			  </ul>
+			  <div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+					<div class="Advantages_items">
+						<img src="img/img_tabs_electric/electrician.jpg" alt="electric" class="appeals_img">
+						<div class="Advantages_items_descr">
+							<h2 class="Advantages_items_title">Ремонт в день обращения</h2>
+							<div class="Advantages_items_text">
+								Наши мастера равномерно распределены во всех районах города. За счет этого наши мастера могут приехать к вам в интервале от получаса до полутора часов. Все наши мастера профессионалы со стажем от 8 лет. Мы оперативно устраним поломку, протечку, засор или произведем установку сантехники. И дадим официальную гарантию на работы и материалы 3 года по чеку.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+					<div class="Advantages_items">
+						<img src="img/img_tabs_electric/ematerials.jpg" alt="ematerials" class="appeals_img">
+						<div class="Advantages_items_descr">
+							<h2 class="Advantages_items_title">Закупаем необходимые материалы и комплектующие</h2>
+							<div class="Advantages_items_text">
+								Если у вас нет необходимых комплектующих и материалов, наши мастера готовы их закупить. Мастер приедет сразу со всем необходимым, предоставит вам чеки и начнет работу. Мы производим оптовые закупки, поэтому цены у нас на 10-15% ниже магазинных.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+					<div class="Advantages_items">
+						<img src="img/img_tabs_electric/warranty.jpg" alt="warranty" class="appeals_img">
+						<div class="Advantages_items_descr">
+							<h2 class="Advantages_items_title">Официальная гарантия</h2>
+							<div class="Advantages_items_text">
+								О качестве выполненных работ и материалов лучше всего говорит длительная гарантия. Наша гарантия распространяется на 3 года. Срок действия этого обязательства напрямую зависит от использованных материалов. Для вашего удобства у нас работает сервисная служба, которая обеспечивает гарантийное и постгарантийное обслуживание.
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+		</div>
+	</section>
+	
+	<section class="working">
+		<h2 class="working_title">Как мы работаем</h2>
+			<div class="container">
+				<div class="row">
+								<div class="col-md-6">
+									<div class="working_wrapper animate__animated	animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s" >
+										<div class="working_wrapper_item">
+											<div class="working_wrapper_item_number">1</div>
+										</div>	
+										<div class="working_wrapper_item_descr">	
+											<div class="working_wrapper_item_title">Заявка</div>
+											<div class="working_wrapper_item_text">
+												Оставьте заявку на сайте или позвоните по номеру +7(495) 127 43 29, и оператор подберет Вам специалиста по ремонту.
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="working_wrapper animate__animated	animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
+										<div class="working_wrapper_item">
+											<div class="working_wrapper_item_number">2</div>
+										</div>	
+										<div class="working_wrapper_item_descr">	
+											<div class="working_wrapper_item_title">Выезд специалиста</div>
+											<div class="working_wrapper_item_text">
+												В выбранное Вами время к Вам приедет cпециалист и произведет диагностику для составления сметы работ.
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="working_wrapper animate__animated	animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
+										<div class="working_wrapper_item">
+											<div class="working_wrapper_item_number">3</div>
+										</div>	
+										<div class="working_wrapper_item_descr">	
+											<div class="working_wrapper_item_title">Выполнение работ</div>
+											<div class="working_wrapper_item_text">
+												После согласования стоимости специалист произведет все необходимые работы.
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="working_wrapper animate__animated	animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
+										<div class="working_wrapper_item">
+											<div class="working_wrapper_item_number">4</div>
+										</div>	
+										<div class="working_wrapper_item_descr">	
+											<div class="working_wrapper_item_title">Прием работ</div>
+											<div class="working_wrapper_item_text">
+												После выполнения работ, специалист предоставит Вам чек и гарантийный талон сроком на 3 года.
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+				</div>
+	</section>
+	
+	<section class="contacts">
+			<h2 class="contacts_title">Наши контакты</h2>
+			<div class="container">
+				<div class="contacts_wrapper">
+					<div class="contacts_wrapper_item">
+						<div class="contacts_phone">+7(495)127-31-19</div>	
+						<div class="contacts_descr">Ежедневно с 7 до 23</div>	
+					</div>
+					<div id="consultation-form" class="contacts_wrapper_item" >
+						<form class="contacts_form" action="#">
+							<input	name="name"	required	placeholder="Ваше имя"	type="text">
+							<input	name="phone" required	placeholder="Ваш телефон"	>
+							<button  class="button_submit button_submit__pulse_animation">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+	</section>
+	<div class="overlay">
+		<div class="modal" id="consultation">
+			<div class="modal_title">Оставить заявку</div>
+				<div class="modal_item">
+					<div class="modal_item_close">&times;</div>
+						<form  class="modal_item_form" action="#">
+							<input	name="name"	required	placeholder="Ваше имя"	type="text">
+							<input	name="phone" required	placeholder= "Ваш телефон">
+							<button  class="button_modal button_modal__pulse_animation">Отправить</button>
+						</form>
+					</div>
+			</div>
+	</div>
+<script	src="js/jquery.min.js"></script>	
+<script	src="js/jquery.validate.min.js"></script>
+<script	src="js/jquery.maskedinput.js"></script>
+<script	src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script	src="js/script.js"></script>
 </body>
 </html>
