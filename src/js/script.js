@@ -8,9 +8,8 @@ $( document ).ready(function() {
 		$('.overlay, #consultation').fadeOut('slow');
 	});
 
-	$('.button_modal').each(function(i) {
+	$('.button_submit').each(function(i) {
 		$(this).on('click', function() {
-			$('#consultation');
 			$('.overlay, #consultation').fadeIn('slow');
 		})
 	});

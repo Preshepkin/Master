@@ -1,0 +1,198 @@
+*
+	font-family: 'Roboto', sans-serif 
+
+@import	'base/variables'
+@import	'base/buttons'
+@import	'base/animated'
+
+	
+.container
+	position: relative
+	max-width: 1320px
+	margin: 0 auto
+
+.main
+	min-height: 645px
+	background-color: #f3f5f8
+	&_logo
+		margin-top: 10px
+.logo_main	
+		width: 100%
+		width: 115px
+
+header
+	
+	width: 100%
+	min-height: 120px
+	background-color: $main-color
+
+.mainheader
+	display: flex	
+	justify-content: end
+	align-items: center
+
+	
+	
+	&_list	
+		display: block
+		margin-top: 25px
+		font-family: 'Roboto'
+		font-style: normal
+		font-weight: 700
+		font-size: 16px
+		text-transform: uppercase
+		padding: 0px 10px
+		list-style: none
+		&_link
+			display: block
+			color:#000000fc
+			text-decoration: none
+			&:hover
+				color: white
+			span
+				display: block
+				font-size: 12px
+				text-align: end	
+
+
+.reviews
+	position: relative
+	&_title
+		margin-top: 40px
+		font-family: 'Roboto'
+		font-style: normal
+		font-weight: 700
+		font-size: 75px
+		span
+			font-family:'Roboto'
+			font-weight: 700
+			color: $main-color
+	&_item
+		margin: 20px 0
+		border-bottom: 1px solid #000000
+		padding-bottom: 20px
+		width: 100%
+		min-width: 340px
+		max-width: 100%
+	&_wrapper
+		display: flex
+		min-width: 730px
+		&_photo
+			border-radius: 50px
+			width: 40px
+			height: 40px	
+
+		
+.contacts
+	height: 645px
+	background-color: #f3f5f8
+	&_title	
+		margin-top: 120px
+		font-family: 'Roboto'
+		font-size: 40px
+		font-weight: 700
+		text-align: center
+	&_wrapper
+		margin-top: 50px
+		display: flex
+		justify-content: center
+		&_item
+			width: 470px
+	&_phone
+		margin-top: 65px
+		font-family: 'Roboto'
+		font-size: 23px
+		font-weight: 700
+		text-align: center
+		color: #000000
+	&_descr	
+		margin-top: 55px
+		font-family: 'Roboto'
+		font-size: 23px
+		font-weight: 700
+		text-align: center
+		color: #000000
+	&_form	
+		margin-top: 50px
+		display: flex
+		flex-direction: column
+		input
+			padding: 30px
+			border-radius: 5px
+			width: 100%
+			height: 60px
+			color: #000000
+			background-color: #fff
+			border: 1px solid #000000
+			margin-bottom: 30px					
+.overlay
+	display: none
+	position: fixed
+	width: 100%
+	height: 100%
+	top: 0
+	background: rgba(0, 0, 0, 0.56)
+.modal
+	display: block
+	margin: 0 auto
+	width: 500px
+	height: 400px
+	background-color: rgb(255, 255, 255)
+	border: 1px dotted rgb(255, 255, 255)
+	border-radius: 4px
+	font-family: 'Roboto'
+	color: rgb(0, 0, 0) !important
+	inset: 0px
+	&_title
+		margin-top: 30px
+		font-family: 'Roboto'
+		font-size: 25px
+		font-weight: 700
+		text-align: center
+	&_item
+		display: flex
+		flex-direction: column
+		margin-top: 20px
+		&_close
+			position: absolute
+			top: -15px
+			right: 10px
+			font-size: 41px
+			cursor: pointer
+			&:hover
+				color: #ff0000
+
+		&_form
+			display: flex
+			flex-direction: column
+			align-items: center
+			input
+				display: block
+				background-color: #fff
+				box-sizing: border-box
+				border-radius: 2px
+				color: #333
+				-webkit-box-sizing: border-box
+				-moz-box-sizing: border-box
+				float: none
+				font-size: 16px
+				border: 1px solid #ccc
+				padding: 6px 10px
+				width: 70%
+				height: 60px
+				line-height: 1.3
+				margin-bottom: 30px
+			
+.onerror	
+		
+	color:#ff6a00
+	border-bottom:15px	
+	
+	label.onerror	
+		border-bottom:15px
+		text-align: center
+		border: none
+			
+		
+			
+			

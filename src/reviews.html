@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/reviews.style.min.css">
+	<link rel="icon" href="icons/favicon.png" type="image/x-icon">
+	<title>reviews</title>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
+						<div class="main_logo">
+							<a class="main_logo_link" href="#">
+								<img src="icons/logo.png" alt="logo" class="logo_main">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-9">
+						<menu class="mainheader">
+							<li class="mainheader_list"><a href="index.html" class="mainheader_list_link">МАСТЕР НА ЧАС</a></li>
+							<li class="mainheader_list"><a href="electric.html" class="mainheader_list_link">ЭЛЕКТРИКА</a></li>
+							<li class="mainheader_list"><a href="plumbing.html" class="mainheader_list_link">САНТЕХНИКА</a></li>
+							<li class="mainheader_list"><a href="reviews.html" class="mainheader_list_link">ОТЗЫВЫ</a></li>
+							<li class="mainheader_list"><a href="#" class="mainheader_list_link">🕗 Ежедневно с 7 до 23</a></li>
+							<li class="mainheader_list"><a href="#" class="mainheader_list_link">+7 (495) 266 56 86 
+									<span>Ежедневно с 7 до 23</span>
+								</a>
+							</li>
+						</menu>
+					</div>
+					<div class="col-md-2">
+						<button  data-modal="consultation" class="button_main button_main__pulse_animation">Обратный звонок</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">	
+			<h1 class="reviews_title">Отзывы</h1>
+				
+			<div class="reviews_item">
+
+				<div class="reviews_wrapper">
+					<img src="img/img_reviews_photo/one.jpg" alt="" class="reviews_wrapper_photo">
+					<div class="reviews_wrapper_link">
+						<a href="">Вероника Аксенова</a>
+						<div class="reviews_wrapper_profession">Знаток города 6 уровня</div>
+					</div>
+						<div class="reviews_wrapper_stars">26 февраля</div>
+						<div class="reviews_wrapper_comment">
+							Обратилась для монтажа техники в новой кухне. Ребята работали весь день, всё поставили, даже исправили косяки установщиков кухни.
+							Работают по договору (нужно заранее запросить). Доступно объясняют свои предложения.
+							Планирую обращаться к ним и по другим задачам.
+							Не всегда легко дозвониться или дождаться ответ по почте, заказов у ребят, похоже, много.
+						</div>
+				</div>
+					
+			</div>
+			
+
+
+		</div>
+				
+
+
+
+	<section class="contacts">
+				<h2 class="contacts_title">Расчет стоимости</h2>
+				
+				<div class="container">
+					<div class="contacts_wrapper">
+						<div class="contacts_wrapper_item">
+							<div class="contacts_phone">+7(495)127-31-19</div>	
+							<div class="contacts_descr">Ежедневно с 7 до 23</div>	
+						</div>
+						<div id="consultation-form" class="contacts_wrapper_item" >
+							<form class="contacts_form" action="#">
+								<input	name="name"	required	placeholder="Ваше имя"	type="text">
+								<input	name="phone" required	placeholder="Ваш телефон"	>
+								<button  class="button_submit button_submit__pulse_animation">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+		</section>
+	<div class="overlay">
+				<div class="modal" id="consultation">
+					<div class="modal_title">Оставить заявку</div>
+						<div class="modal_item">
+							<div class="modal_item_close">&times;</div>
+
+								<form  class="modal_item_form" action="#">
+									<input	name="name"	required	placeholder="Ваше имя"	type="text">
+									<input	name="phone" required	placeholder= "Ваш телефон">
+									<button  class="button_submit">Отправить</button>
+								</form>
+							</div>
+						</div>
+		</div>
+	</div>
+
+<script	src="js/jquery.min.js"></script>	
+<script	src="js/jquery.validate.min.js"></script>
+<script	src="js/jquery.maskedinput.js"></script>
+<script	src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script	src="js/script.js"></script>
+</body>
+</html>
+

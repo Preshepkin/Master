@@ -1,0 +1,23 @@
+<!-- <div class="reviews_items">
+								<img src="img/img_reviews_photo/one.jpg" alt="one" class="reviews_items_icons"> 
+	
+							</div> -->
+							<div class="reviews_items_link">
+								<img src="img/img_reviews_photo/one.jpg" alt="one" class="reviews_items_icons">
+								<a href="">Вероника Аксенова </a>
+								<div class="reviews_name_profession">Знаток города 6 уровня</div>
+							</div>
+
+<!-- 
+							<div class="reviews_name">Вероника Аксенова</div>
+						
+							<div class="reviews_name_profession">Знаток города 6 уровня</div> -->
+
+						<div class="reviews_name_profession_date"> 18 февраля</div>
+
+						<div class="reviews_name_profession_comment">
+							Обратилась для монтажа техники в новой кухне. Ребята работали весь день, всё поставили, даже исправили косяки установщиков кухни.
+							Работают по договору (нужно заранее запросить). Доступно объясняют свои предложения.
+							Планирую обращаться к ним и по другим задачам.
+							Не всегда легко дозвониться или дождаться ответ по почте, заказов у ребят, похоже, много.
+						</div>
