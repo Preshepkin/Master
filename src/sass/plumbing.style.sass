@@ -143,7 +143,7 @@ header
 	&_item
 		margin-top: 50px
 		&_imeg	
-			width: 420px
+			width: 410px
 			height: 320px
 		&_descr
 			margin-top: 20px
@@ -171,9 +171,9 @@ header
 		height: 40px
 		border-radius: 2px
 .Advantages		
-	background-color: #f3f5f8	
 	padding: 70px 0px 70px 0px
 	min-height: 650px
+	background-color: #f3f5f8	
 	&_title
 		font-family: 'Roboto'
 		font-size: 40px
@@ -257,7 +257,8 @@ header
 
 
 .work
-	padding: 70px 0 0 0
+	min-height: 800px
+	padding: 70px 
 	&_title
 		font-family: 'Roboto'
 		font-size: 40px
@@ -278,11 +279,16 @@ header
 	grid-template-columns: repeat(4,390px)
 	grid-template-rows: repeat(3,250px)
 	gap: 25px
-	
 
-.our_imeg
-	width: 390px
-	height: 250px
+.grid		
+	&_item
+		&_picture
+			width: 390px
+			height: 250px
+
+// .our_imeg
+// 	width: 390px
+// 	height: 250px
 .working
 	
 	&_title
