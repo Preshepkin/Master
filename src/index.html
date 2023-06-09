@@ -16,13 +16,14 @@
 	<title>Мастре на час</title>
 </head>
 <body>
-<section class="main">
+
+ <!-- <div class="main">
 		<header>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-1">
 						<div class="main_logo">
-							<a class="main_logo_link" href="#">
+							<a class="main_logo_link" href="index.html">
 								<img src="icons/logo.png" alt="logo" class="logo_main">
 							</a>
 						</div>
@@ -34,9 +35,8 @@
 							<li class="mainheader_list"><a href="plumbing.html" class="mainheader_list_link">САНТЕХНИКА</a></li>
 							<li class="mainheader_list"><a href="reviews.html" class="mainheader_list_link">ОТЗЫВЫ</a></li>
 							<li class="mainheader_list"><a href="#" class="mainheader_list_link">🕗 Ежедневно с 7 до 23</a></li>
-							<li class="mainheader_list"><a href="#" class="mainheader_list_link">+7 (495) 266 56 86 
-									<span>Ежедневно с 7 до 23</span>
-								</a>
+							<li class="mainheader_list">
+								<a href="tel:+74952665686" class="mainheader_list_link">+7 (495) 266 56 86 <span>Ежедневно с 7 до 23</span></a>
 							</li>
 						</menu>
 					</div>
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 		</header>
-
+		
 		<div class="container">	
 			<h1 class="husband_title">
 				<span>Мастер</span> на час
@@ -58,7 +58,7 @@
 							<li class="husband_item_list"><span>Без</span> повышения цен</li>
 						</ul>	
 						<div class="col-md-5">
-							<button  data-modal="consultation" class="button_submain button_submain__pulse_animation" >Бесплатная консультация</button>
+							<button  data-modal="consultation" class="button_submain" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -68,17 +68,15 @@
 						</ul>	
 					</div>
 				</div>
-			</div>
+			</div>	
+</div> 
 
-			
-</section>
-
-	<section class="professionals">
+	  <section class="professionals">
 		<div class="container">
 
 			<div class="info_master">
 				<a href="reviews.html" class="info_master_link">
-					<img src="icons/Mast.png" alt="Mast">
+					<img src="icons/Mast.png" alt="Mast" class="master">
 				</a>
 			</div>
 
@@ -103,12 +101,12 @@
 					<div class="professionals_items_icons">
 						<img src="icons/slavs.png" alt="slavs" class="professionals_items_icons_logo">
 						<div class="professionals_descr">
-							Мастера славяне, опыт работы от 8 лет
+							Мастера славяне, опыт работы от <br> 8 лет
 						</div>
 					</div>
 				</div>
 			</div>	
-	</section>
+	</section> -->
 
 	<section class="services">
 		<h2 class="services_title">Наши услуги</h2>	
@@ -228,7 +226,7 @@
 			</div>
 	</section>
 
-	<section class="Advantages">
+	<!-- <section class="Advantages">
 		<h2 class="Advantages_title">Преимущества</h2>
 		<div class="container">
 			<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
@@ -381,8 +379,8 @@
 						<div class="contacts_phone">+7(495)127-31-19</div>	
 						<div class="contacts_descr">Ежедневно с 7 до 23</div>	
 					</div>
-					<div  class="contacts_wrapper_item" >
-						<form  id="consultation-form"  class="contacts_form" action="#">
+					<div id="consultation-form" class="contacts_wrapper_item" >
+						<form id="consultation-form" class="contacts_form" action="#">
 							<input	name="name"	required	placeholder="Ваше имя"	type="text">
 							<input	name="phone" required	placeholder="Ваш телефон"	>
 							<button  class="button_submit">Отправить</button>
@@ -396,14 +394,20 @@
 			<div class="modal_title">Оставить заявку</div>
 				<div class="modal_item">
 					<div class="modal_item_close">&times;</div>
-						<form  class="modal_item_form" action="#">
+						<form  id="consultation-form" class="modal_item_form" action="#">
 							<input	name="name"	required	placeholder="Ваше имя"	type="text">
 							<input	name="phone" required	placeholder= "Ваш телефон">
-							<button  class="button_submit">Отправить</button>
+							<button  class="button_submit button_submit-mini">Отправить</button>
 						</form>
 					</div>
-		</div>
-	</div>
+					<!-- <div class="modal modal_mini" id="thanks">
+						<div class="modal_mini_close">&times;</div>
+						<div class="modal_mini_title">Спасибо за вашу заявку!</div>
+						<div class="modal_mini_descr">Наш менеджер свяжется с вами  в ближайшее время!</div>
+					</div> -->
+						
+			</div>
+	</div>   -->
 <script	src="js/jquery.min.js"></script>	
 <script	src="js/jquery.validate.min.js"></script>
 <script	src="js/jquery.maskedinput.js"></script>

@@ -2,15 +2,15 @@ $( document ).ready(function() {
 
 
 	$('[data-modal=consultation]').on('click', function() {
-		$('.overlay, #consultation').fadeIn('slow');
+		$('.overlay, #consultation-form').fadeIn('slow');
 	});
 	$('.modal_item_close').on('click', function() {
-		$('.overlay, #consultation').fadeOut('slow');
+		$('.overlay, #consultation-form').fadeOut('slow');
 	});
 
 	$('.button_submit').each(function(i) {
 		$(this).on('click', function() {
-			$('.overlay, #consultation').fadeIn('slow');
+			$('.overlay, #consultation-form').fadeIn('slow');
 		})
 	});
 	
@@ -30,7 +30,7 @@ $( document ).ready(function() {
             },
             messages: {
                 name: {
-                    required: "Пожалуйста, введите свое имя !!!",
+                    required: "Пожалуйста, введите свое имя",
                     minlength: jQuery.validator.format("Введите {0} символа!")
                   },
                 phone: "Пожалуйста, введите свой номер телефона",
