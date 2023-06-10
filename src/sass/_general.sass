@@ -2,21 +2,21 @@
 	min-height: 645px
 	background: url('../img/too.jpg') center center/cover no-repeat
 	&_logo
-		display: block
 		margin-top: 10px
-.logo_main	
-		width: 100%
-		width: 115px
+		&_main
+			width: 120%
 
 header
 	
-	max-height: 120px
+	height: 122px
 	background-color: $main-color
 
 .mainheader
+	
 	display: flex	
 	justify-content: end
 	align-items: center
+	
 	&_list	
 		display: block
 		margin-top: 25px
@@ -25,19 +25,30 @@ header
 			display: block
 			font-family: 'Roboto'
 			font-style: normal
-			font-weight: 700
+			font-weight: 500
 			font-size: 16px
 			text-transform: uppercase
 			color:#000000fc
 			text-decoration: none
 			&:hover
 				color: white
-			span
+			&_phone	
 				display: block
-				font-weight: 500
-				font-size: 12px
-				text-align: center
-				// text-align: end	
+				margin-top: -10px
+				font-family: 'Roboto'
+				font-style: normal
+				font-weight: 700
+				font-size: 16px
+				text-transform: uppercase
+				color:#000000fc
+				text-decoration: none
+				span
+					display: block
+					font-weight: 400
+					font-size: 12px
+					text-align: end		
+				&:hover
+					color: white			
 .husband
 	&_title
 		margin-top: 40px
@@ -47,7 +58,7 @@ header
 		font-size: 75px
 		span
 			font-family:'Roboto'
-			font-weight: 500
+			font-weight: 700
 			color: $main-color
 	&_item	
 		margin-top: 15px
@@ -86,12 +97,16 @@ header
 		font-weight: 500
 		text-align: center
 		&_descr	
+			display: block
+			margin: 0 auto
 			margin-top: 35px
 			font-family: 'Roboto'
 			font-size: 18px
 			font-weight: 300
 			text-align: center
 			color:#000000fc
+	&_text
+					
 	&_items
 		margin-top: 70px
 		display: flex
@@ -301,6 +316,7 @@ header
 				font-weight: 300
 				font-style: normal
 				color: #000000
+				min-width: 385px
 			
 .contacts
 	margin-bottom: 150px
@@ -431,7 +447,8 @@ header
 
 
 label	
-	color:#ff5303
+	color:#f50000
+	text-align: center
 	border-bottom:15px	
 	margin-bottom: 10px
 

@@ -21,43 +21,51 @@
 	background: url('../img/electric.jpg') center center/cover no-repeat
 	&_logo
 		margin-top: 10px
-.logo_main	
-		width: 100%
-		width: 115px
+		&_main
+			width: 120%
+
 
 header
-	
-	width: 100%
-	min-height: 120px
+	height: 122px
 	background-color: $main-color
 
 .mainheader
+	
 	display: flex	
 	justify-content: end
 	align-items: center
-
-	
-	
 	&_list	
 		display: block
 		margin-top: 25px
-		font-family: 'Roboto'
-		font-style: normal
-		font-weight: 700
-		font-size: 16px
-		text-transform: uppercase
 		padding: 0px 10px
-		list-style: none
 		&_link
 			display: block
+			font-family: 'Roboto'
+			font-style: normal
+			font-weight: 500
+			font-size: 16px
+			text-transform: uppercase
 			color:#000000fc
 			text-decoration: none
 			&:hover
 				color: white
-			span
+			&_phone	
 				display: block
-				font-size: 12px
-				text-align: end	
+				margin-top: -10px
+				font-family: 'Roboto'
+				font-style: normal
+				font-weight: 700
+				font-size: 16px
+				text-transform: uppercase
+				color:#000000fc
+				text-decoration: none
+				span
+					display: block
+					font-weight: 400
+					font-size: 12px
+					text-align: end		
+				&:hover
+					color: white		
 
 
 .husband
