@@ -2,21 +2,21 @@
 	min-height: 645px
 	background: url('../img/too.jpg') center center/cover no-repeat
 	&_logo
+		display: block
 		margin-top: 10px
+		text-align: center
 		&_main
 			width: 100px
 
 header
 	
-	height: 115px
+	height: 122px
 	background-color: $main-color
 
-.mainheader
-	
+.mainheader	
 	display: flex	
 	justify-content: end
-	align-items: center
-	
+	align-items: center		
 	&_list	
 		display: block
 		margin-top: 25px
@@ -48,7 +48,65 @@ header
 					font-size: 12px
 					text-align: end		
 				&:hover
-					color: white			
+					color: white	
+.sublink
+	display: block
+	margin-top: 45px
+	text-align: center
+	min-width: 200px
+	&_list
+		list-style-type: none
+	&_phone
+		display: block
+		font-style: normal
+		font-weight: 700
+		font-size: 17px
+		text-transform: uppercase
+		color:#000000fc
+		text-decoration: none
+		&:hover
+			color: white
+.submenu	
+	display: block
+	margin-top: 35px
+.menuinfo
+	list-style-type: none
+	&_line	
+		width: 100%
+		border: solid 1px
+		padding: 20px
+	&_link
+		font-weight: 700
+		color: #55595c
+		text-decoration: none	
+		text-transform: uppercase
+.btn-primary 
+	--bs-btn-color:#000000f
+	--bs-btn-bg: $main-color
+	--bs-btn-border-color: #000000
+	--bs-btn-hover-color: #fff
+	--bs-btn-hover-bg: #000000
+	--bs-btn-hover-border-color: #000000
+	--bs-btn-focus-shadow-rgb: 49,132,253
+	--bs-btn-active-color: #fff
+	--bs-btn-active-bg: #000000
+	--bs-btn-active-border-color: #000000
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125)
+	--bs-btn-disabled-color: #fff
+	--bs-btn-disabled-bg: #000000
+	--bs-btn-disabled-border-color: #000000
+.btn 
+	--bs-btn-font-family: 'Roboto'
+	--bs-btn-font-size: 1rem
+	--bs-btn-font-weight: 700
+	--bs-btn-border-radius: 5px
+.offcanvas,.offcanvas-lg,.offcanvas-md,.offcanvas-sm,.offcanvas-xl,.offcanvas-xxl .offcanvas-xxl
+	--bs-offcanvas-height: 100vh	
+	--bs-offcanvas-bg: #f3f5f8	
+	
+
+
+
 .husband
 	&_title
 		margin-top: 40px
