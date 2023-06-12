@@ -70,19 +70,31 @@ header
 	display: block
 	margin-top: 35px
 .menuinfo
-	list-style-type: none
-	&_line	
-		width: 100%
-		border: solid 1px
+	display: flex
+	border: solid 1px
+	padding: 20px
+	font-weight: 700
+	font-size: 14px !important
+	color: #55595c
+	text-decoration: none	
+	text-transform: uppercase
+	&:hover
+		color: #fff
+	&_price
+		display: flex
+		border: solid 1px #55595c
 		padding: 20px
-	&_link
 		font-weight: 700
-		color: #55595c
+		font-size: 14px !important
+		color: #ffffff
 		text-decoration: none	
 		text-transform: uppercase
+		background-color: #55595c
+	&:hover
+		background-color: #49abf6ce
 .btn-primary 
 	--bs-btn-color:#000000f
-	--bs-btn-bg: $main-color
+	--bs-btn-bg: #fff
 	--bs-btn-border-color: #000000
 	--bs-btn-hover-color: #fff
 	--bs-btn-hover-bg: #000000
@@ -99,11 +111,25 @@ header
 	--bs-btn-font-family: 'Roboto'
 	--bs-btn-font-size: 1rem
 	--bs-btn-font-weight: 700
-	--bs-btn-border-radius: 5px
+	--bs-btn-border-radius: 0px
+	text-transform: uppercase
+	--bs-btn-border-width: 0
+.offcanvas-title 
+	font-weight: 700
+	color: #55595c
+	text-transform: uppercase
+	
+
 .offcanvas,.offcanvas-lg,.offcanvas-md,.offcanvas-sm,.offcanvas-xl,.offcanvas-xxl .offcanvas-xxl
 	--bs-offcanvas-height: 100vh	
 	--bs-offcanvas-bg: #f3f5f8	
-	
+	--bs-offcanvas-border-width: none
+
+.offcanvas-body	
+	flex-grow: 1
+	padding: 0px
+	overflow-y: auto
+
 
 
 
