@@ -1,20 +1,16 @@
 .button
 	&_main
-		display: block
+		display: inline-block
+		margin-left: 25px
 		margin-top: 35px
 		width: 160px
 		height: 50px
-		color: black
-		border: solid #fff
+		color: white
 		border-radius: 5px
 		font-weight: 700
 		font-size: 14px
+		background: transparent
 		cursor: pointer
-		background-color: #fff
-		text-transform: uppercase
-		&:hover
-			background-color: $main-color
-			border: 1px solid black
 	&_submain
 		display: block
 		margin-top: 85px
@@ -24,7 +20,7 @@
 		cursor: pointer	
 		width: 320px
 		height: 60px
-		&_pulse
+		&__pulse
 			&_animation 
 				animation-name: heartbeat
 				&:hover	
@@ -42,8 +38,6 @@
 		&:hover	
 			box-shadow: 1px 1px 1px 3px $main-color
 			border: none
-		&-mini
-			width: 70%	
 	&_service
 		display: block
 		margin-top: 20px

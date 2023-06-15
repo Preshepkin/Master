@@ -11,12 +11,13 @@
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/electric.style.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="icon" href="icons/favicon.png" type="image/x-icon">
-	<title>ЭЛЕКТРИКА</title>
+	<title>Мастре на час</title>
 </head>
 <body>
-	<section class="main">
+
+  <div class="main">
 		<header>
 			<div class="container">
 				<div class="row">
@@ -76,7 +77,7 @@
 										<a href="electric.html" class="menuinfo">ЭЛЕКТРИКА</a>
 										<a href="plumbing.html" class="menuinfo">САНТЕХНИКА</a>
 										<a href="reviews.html" class="menuinfo">ОТЗЫВЫ</a>
-										<a href="" class="menuinfo_price">РАСЧЕТ СТОИМОСТИ</a>
+										<a href="calculation.html" class="menuinfo_price">РАСЧЕТ СТОИМОСТИ</a>
 										<a href="tel:+74952665686" class="menuinfo">📞 +7 (495) 266 56 86</a>
 										<a href="#" class="menuinfo">🕗 Ежедневно с 7 до 23 </a>
 									</div>
@@ -89,33 +90,35 @@
 		</header>
 
 		<div class="container">	
-			<h1 class="husband_title">Услуги <span>электрика</span> на дому</h1>
-			<div class="row">
-				<div class="col-md-5">
-					<ul class="husband_item">
-						<li class="husband_item_list">Мастера проходят  <br><span>ежедневную проверку медработниками</span></li>
-						<li class="husband_item_list"><span>Без</span> повышения цен</li>
-					</ul>	
+			<h1 class="husband_title">
+				<span>Мастер</span> на час
+			</h1>
+				<div class="row">
+					<div class="col-md-5">
+						<ul class="husband_item">
+							<li class="husband_item_list">Мастера проходят  <br><span>ежедневную проверку медработниками</span></li>
+							<li class="husband_item_list"><span>Без</span> повышения цен</li>
+						</ul>	
+					</div>
+					<div class="col-md-5">
+						<ul class="husband_item">
+							<li class="husband_item_list">Выезжаем за 30 минут по <br><span>Москве и МО</span></li>
+							<li class="husband_item_list">Оплата <span>переводом мастеру на карту</span> или наличными</li>
+						</ul>	
+					</div>
+					<div class="col-md-5">
+						<button  data-modal="consultation" class="button_submain  button_submain_pulse_animation" >Бесплатная консультация</button>
+					</div>
 				</div>
-				<div class="col-md-5">
-					<ul class="husband_item">
-						<li class="husband_item_list">Выезжаем за 30 минут по <br><span>Москве и МО</span></li>
-						<li class="husband_item_list">Оплата <span>переводом мастеру на карту</span> или наличными</li>
-					</ul>	
-				</div>
-				<div class="col-md-5">
-					<button  data-modal="consultation" class="button_submain  button_submain_pulse_animation" >Бесплатная консультация</button>
-				</div>
-			</div>
-		</div>
-</section>
+			</div>	
+</div> 
 
-	<section class="professionals">
+	 <section class="professionals">
 		<div class="container">
-			
+
 			<div class="info_master">
 				<a href="reviews.html" class="info_master_link">
-					<img src="icons/Mast.png" alt="Mast">
+					<img src="icons/Mast.png" alt="Mast" class="master">
 				</a>
 			</div>
 
@@ -145,7 +148,7 @@
 					</div>
 				</div>
 			</div>	
-	</section>
+	</section> 
 
 	<section class="services">
 		<h2 class="services_title">Наши услуги</h2>	
@@ -153,27 +156,27 @@
 				<div class="row">
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/emergency.jpg" alt="emergency" class="services_item_imeg">
+							<img src="img/service/laminate.jpg" alt="laminate" class="services_item_imeg">
 
-							<div class="services_item_descr">Аварийный ремонт электрики <br> от 280 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/diagnostics.jpg" alt="diagnostics" class="services_item_imeg">
-
-							<div class="services_item_descr">Диагностика электропроводки <br> от 150 р</div>	
+							<div class="services_item_descr">Укладка ламината <br> от 230 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/troubleshooting.jpg" alt="troubleshooting" class="services_item_imeg">
+							<img src="img/service/linoleum.jpg" alt="linoleum" class="services_item_imeg">
 
-							<div class="services_item_descr">Устранение замыкания<br> от 280 р</div>
+							<div class="services_item_descr">Укладка линолеума <br> от 190 р</div>	
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service/laying.jpg" alt="laying" class="services_item_imeg">
+
+							<div class="services_item_descr">Укладка ковролина <br> от 200 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
@@ -181,27 +184,27 @@
 
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/outlet.jpg" alt="outlet" class="services_item_imeg">
+							<img src="img/service/wallpapering.jpg" alt="wallpapering" class="services_item_imeg">
 
-							<div class="services_item_descr">Установка розетки <br> от 160 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/chandelier.jpg" alt="chandelier" class="services_item_imeg">
-
-							<div class="services_item_descr">Установка люстры <br> от 400 р</div>	
+							<div class="services_item_descr">Поклейка обоев <br> от 190 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/switch.jpg" alt="switch" class="services_item_imeg">
+							<img src="img/service/cornices.jpg" alt="cornices" class="services_item_imeg">
 
-							<div class="services_item_descr">Установка выключателя <br> от 160 р</div>
+							<div class="services_item_descr">Установка карнизов <br> от 450 р</div>	
+
+							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<div class="services_item">
+							<img src="img/service/assembly.jpg" alt="assembly" class="services_item_imeg">
+
+							<div class="services_item_descr">Сборка мебели <br> от 300 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
@@ -209,127 +212,61 @@
 					
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/machine.jpg" alt="machine" class="services_item_imeg">
+							<img src="img/service/repair.jpg" alt="repair" class="services_item_imeg">
 
-							<div class="services_item_descr">Установка автомата<br> от 280 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/panel.jpg" alt="" class="services_item_imeg">
-
-							<div class="services_item_descr">Монтаж щитка электрического <br> от 400 р</div>	
+							<div class="services_item_descr">Ремонт мебели<br> от 500 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/box.jpg"  alt="box" class="services_item_imeg">
+							<img src="img/service/kitchen.jpg" alt="kitchen" class="services_item_imeg">
 
-							<div class="services_item_descr">Монтаж распаячной коробки<br> от 280 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/washing.jpg" alt="washing" class="services_item_imeg">
-
-							<div class="services_item_descr">Установка стиральной машины <br> от 550 р</div>
+							<div class="services_item_descr">Сборка кухонного гарнитура <br> от 880 р</div>	
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/installation.jpg" alt="installation" class="services_item_imeg">
+							<img src="img/service/paintings.jpg" alt="paintings" class="services_item_imeg">
 
-							<div class="services_item_descr">Установка посудомоечной машины <br> от 800 р</div>	
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/heater.jpg" alt="heater.jpg" class="services_item_imeg">
-
-							<div class="services_item_descr">Установка водонагревателя <br> от 900 р</div>
+							<div class="services_item_descr">Навеска зеркал и картин <br> от 250 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/rcd.jpg" alt="rcd" class="services_item_imeg">
+							<img src="img/service/machines.jpg" alt="machines" class="services_item_imeg">
 
-							<div class="services_item_descr">Монтаж УЗО <br> от 350 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/meter.jpg" alt="meter" class="services_item_imeg">
-
-							<div class="services_item_descr">Монтаж счетчика электроэнергии <br> от 400 р</div>
+							<div class="services_item_descr">Ремонт стиральных машин <br> от 850 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/stabilizer.jpg" alt="stabilizer" class="services_item_imeg">
+							<img src="img/service/dishwasher.jpg" alt="dishwasher" class="services_item_imeg">
 
-							<div class="services_item_descr">Монтаж стабилизатора напряжения <br> от 1200 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/underfloor.jpg" alt="underfloor " class="services_item_imeg">
-
-							<div class="services_item_descr">Установка 
-								теплого пола <br> от 450 р за м2</div>
+							<div class="services_item_descr">Ремонт посудомоечных машин<br> от 950 р</div>	
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="services_item">
-							<img src="img/service_electric/boilers.jpg" alt="boilers" class="services_item_imeg">
+							<img src="img/service/windows.jpg" alt="windows" class="services_item_imeg">
 
-							<div class="services_item_descr">Ремонт водонагревателей 
-								(бойлеров) <br> от 1200 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/hoods.jpg" alt="hoods" class="services_item_imeg">
-
-							<div class="services_item_descr">Установка 
-								вытяжки <br> от 900 р</div>
-
-							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="services_item">
-							<img src="img/service_electric/stove.jpg" alt="stove " class="services_item_imeg">
-
-							<div class="services_item_descr">Установка электроплиты <br> от 700 р</div>
+							<div class="services_item_descr">Ремонт пластиковых и деревянных окон<br> от 920 р</div>
 
 							<button data-modal="consultation" class="button_service" >Бесплатная консультация</button>
 						</div>
 					</div>
 				</div>
 			</div>
-	</section>
+	</section> 
 
 	<section class="Advantages">
 		<h2 class="Advantages_title">Преимущества</h2>
@@ -348,7 +285,7 @@
 			  <div class="tab-content" id="myTabContent">
 				<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
 					<div class="Advantages_items">
-						<img src="img/img_tabs_electric/electrician.jpg" alt="electric" class="appeals_img">
+						<img src="img/img_tabs/appeals.jpg" alt="electrician" class="appeals_img">
 						<div class="Advantages_items_descr">
 							<h2 class="Advantages_items_title">Ремонт в день обращения</h2>
 							<div class="Advantages_items_text">
@@ -359,7 +296,7 @@
 				</div>
 				<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
 					<div class="Advantages_items">
-						<img src="img/img_tabs_electric/ematerials.jpg" alt="ematerials" class="appeals_img">
+						<img src="img/img_tabs/materials.jpg" alt="ematerials" class="appeals_img">
 						<div class="Advantages_items_descr">
 							<h2 class="Advantages_items_title">Закупаем необходимые материалы и комплектующие</h2>
 							<div class="Advantages_items_text">
@@ -370,7 +307,7 @@
 				</div>
 				<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
 					<div class="Advantages_items">
-						<img src="img/img_tabs_electric/warranty.jpg" alt="warranty" class="appeals_img">
+						<img src="img/img_tabs/construction.jpg" alt="warranty" class="appeals_img">
 						<div class="Advantages_items_descr">
 							<h2 class="Advantages_items_title">Официальная гарантия</h2>
 							<div class="Advantages_items_text">
@@ -383,6 +320,36 @@
 		</div>
 	</section>
 	
+	 <section class="work">
+				<h2 class="work_title">
+					Наши работы
+				</h2>
+		<div class="work_title_descr">Примеры выполненных работ, которыми <br>  гордится наша команда</div>
+		<div class="grid-container">
+				<div class="grid_item">
+					<img src="img/img_work/furniture.jpg" alt="furniture" class="grid_item_picture">
+				</div>
+				<div class="grid_item">
+					<img src="img/img_work/linoleum.jpg" alt="linoleum" class="grid_item_picture">
+				</div>
+				<div class="grid_item">
+					<img src="img/img_work/laminate.jpg" alt="laminate" class="grid_item_picture">
+				</div>
+				<div class="grid_item">
+					<img src="img/img_work/cornice.jpg" alt="cornice" class="grid_item_picture">
+				</div>
+				<div class="grid_item">
+					<img src="img/img_work/room.jpg" alt="room" class="grid_item_picture">
+				</div>
+				<div class="grid_item">
+					<img src="img/img_work/wiring.jpg" alt="wiring" class="grid_item_picture">
+				</div>
+				<div class="grid_item">
+					<img src="img/img_work/plumbing.jpg" alt="plumbing" class="grid_item_picture">
+				</div>
+			</div>
+	</section> 
+
 	<section class="working">
 		<h2 class="working_title">Как мы работаем</h2>
 			<div class="container">
@@ -444,9 +411,9 @@
 								</div>
 						</div>
 				</div>
-	</section>
+	</section> 
 	
-	<section class="contacts">
+	 <section class="contacts">
 			<h2 class="contacts_title">Наши контакты</h2>
 			<div class="container">
 				<div class="contacts_wrapper">
@@ -455,28 +422,35 @@
 						<div class="contacts_descr">Ежедневно с 7 до 23</div>	
 					</div>
 					<div id="consultation-form" class="contacts_wrapper_item" >
-						<form class="contacts_form" action="#">
+						<form id="consultation-form" class="contacts_form" action="#">
 							<input	name="name"	required	placeholder="Ваше имя"	type="text">
 							<input	name="phone" required	placeholder="Ваш телефон"	>
-							<button  class="button_submit button_submit__pulse_animation">Отправить</button>
+							<button  class="button_submit">Отправить</button>
 						</form>
 					</div>
 				</div>
 			</div>
 	</section>
-	<div class="overlay">
+
+	 <div class="overlay">
 		<div class="modal" id="consultation">
-			<div class="modal_title">Оставить заявку</div>
+		<div class="modal_title">Оставить заявку</div>
 				<div class="modal_item">
 					<div class="modal_item_close">&times;</div>
-						<form  class="modal_item_form" action="#">
+						<form  id="consultation-form" class="modal_item_form" action="#">
 							<input	name="name"	required	placeholder="Ваше имя"	type="text">
 							<input	name="phone" required	placeholder= "Ваш телефон">
-							<button  class="button_modal button_modal__pulse_animation">Отправить</button>
+							<button  class="button_submit button_submit-mini">Отправить</button>
 						</form>
-					</div>
-			</div>
-	</div>
+				</div>		
+		</div>
+			<!-- <div class="modal modal_mini" id="thanks">
+					<div class="modal_mini_close">&times;</div>
+					<div class="modal_mini_title">Спасибо за вашу заявку!</div>
+					<div class="modal_mini_descr">Наш менеджер свяжется с вами  в ближайшее время!</div>
+			</div> -->
+	</div> 
+
 <script	src="js/jquery.min.js"></script>	
 <script	src="js/jquery.validate.min.js"></script>
 <script	src="js/jquery.maskedinput.js"></script>

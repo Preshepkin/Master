@@ -4,7 +4,7 @@
 @import	'base/variables'
 @import	'base/animated'
 @import	'blocks/buttons'
-
+@import	'blocks/media'
 	
 .container
 	position: relative
@@ -15,19 +15,20 @@
 	// min-height: 645px
 	// background-color: #f3f5f8
 	&_logo
+		display: block
 		margin-top: 10px
 		&_main
-			width: 120%
+			width: 100px
 
 
 header
-	height: 115px
+	height: 122px
 	background-color: $main-color
 
-.mainheader
+.mainheader	
+	margin-top: 25px
 	display: flex	
-	justify-content: end
-	align-items: center
+	justify-content: end	
 	&_list	
 		display: block
 		margin-top: 25px
@@ -36,7 +37,7 @@ header
 			display: block
 			font-family: 'Roboto'
 			font-style: normal
-			font-weight: 500
+			font-weight: 700
 			font-size: 16px
 			text-transform: uppercase
 			color:#000000fc
@@ -60,6 +61,94 @@ header
 					text-align: end		
 				&:hover
 					color: white	
+.sublink
+	display: block
+	margin-top: 45px
+	text-align: center
+	min-width: 200px
+	&_list
+		list-style-type: none
+	&_phone
+		display: block
+		font-style: normal
+		font-weight: 700
+		font-size: 17px
+		text-transform: uppercase
+		color:#000000fc
+		text-decoration: none
+		&:hover
+			color: white
+.submenu	
+	display: block
+	margin-top: 40px
+.menuinfo
+	display: flex
+	border: solid 1px
+	padding: 20px
+	font-weight: 700
+	font-size: 14px !important
+	color: #55595c
+	text-decoration: none	
+	text-transform: uppercase
+	&:hover
+		color: #fff
+	&_price
+		display: flex
+		border: solid 1px #55595c
+		padding: 20px
+		font-weight: 700
+		font-size: 14px !important
+		color: #ffffff
+		text-decoration: none	
+		text-transform: uppercase
+		background-color: #55595c
+		&:hover
+			background-color: #49abf6ce
+	&:hover
+		background-color: #49abf6ce	
+.btn-primary 
+	--bs-btn-color:#000000f
+	--bs-btn-bg: #fff
+	--bs-btn-border-color: #000000
+	--bs-btn-hover-color: #fff
+	--bs-btn-hover-bg: #000000
+	--bs-btn-hover-border-color: #000000
+	--bs-btn-focus-shadow-rgb: 49,132,253
+	--bs-btn-active-color: #fff
+	--bs-btn-active-bg: #000000
+	--bs-btn-active-border-color: #000000
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125)
+	--bs-btn-disabled-color: #fff
+	--bs-btn-disabled-bg: #000000
+	--bs-btn-disabled-border-color: #000000
+.btn 
+	--bs-btn-font-family: 'Roboto'
+	--bs-btn-font-size: 1rem
+	--bs-btn-font-weight: 700
+	--bs-btn-border-radius: 0px
+	text-transform: uppercase
+	--bs-btn-border-width: 0
+
+.offcanvas-title 
+	font-weight: 700
+	color: #55595c
+	text-transform: uppercase
+	
+
+.offcanvas,.offcanvas-lg,.offcanvas-md,.offcanvas-sm,.offcanvas-xl,.offcanvas-xxl .offcanvas-xxl
+	--bs-offcanvas-height: 100vh	
+	--bs-offcanvas-bg: #f3f5f8	
+	--bs-offcanvas-border-width: none
+
+.offcanvas-header
+	border: solid 1px	
+
+.offcanvas-body	
+	flex-grow: 1
+	padding: 0px
+	overflow-y: auto
+
+
 .info_master
 	display: block
 	margin-top: 15px
@@ -67,7 +156,7 @@ header
 	margin-bottom: 50px
 
 .reviews
-	position: relative
+	min-height: 756	
 	&_title
 		margin-top: 40px
 		font-family: 'Roboto'
@@ -79,20 +168,24 @@ header
 			font-weight: 700
 			color: $main-color
 	&_item
+		display: flex
+		flex-direction: column
 		position: relative
+		padding: 0 36px 0 16px
 		margin-top: 50px
-		margin: 20px 0
+		// margin: 20px 0
 		border-bottom: 1px solid #979595
 		padding-bottom: 20px
-		width: 100%
-		min-height: 260px
+		max-width: 100%
+		min-height: 250px
 		
 	&_wrapper
 		display: flex
 		align-items: center
 		&_link
+			display: block
 			margin-left: 10px
-			min-width: 530px
+			min-width: 235px
 			&_name
 				font-size: 16px
 				line-height: 20px
@@ -108,11 +201,13 @@ header
 			height: 40px
 								
 		&_profession	
+			display: block
 			font-size: 14px
 			line-height: 16px
 			color: #979595
 			font-weight: 400
 			margin-top: 2px
+			min-width: 230px
 
 		&_stars
 			display: flex
@@ -177,8 +272,8 @@ header
 					transform: translateX(-50%)
 					background: url('../icons/dislike.svg') center center/cover no-repeat	
 	
-.contacts
-	height: 300px
+.calculation
+	min-height: 300px
 	&_title	
 		margin-top: 120px
 		font-family: 'Roboto'
@@ -192,9 +287,6 @@ header
 			text-align: center
 			color: rgba(0,0,0,.9882352941)
 	&_wrapper
-		
-		&_item
-			// width: 670px 
 	&_form	
 		margin-top: 50px
 		display: flex
@@ -207,7 +299,8 @@ header
 			color: #000000
 			background-color: #fff
 			border: 1px solid #000000
-			margin-bottom: 30px					
+			margin-bottom: 30px			
+
 .overlay
 	display: none
 	position: fixed
@@ -273,4 +366,7 @@ label
 	margin-bottom: 10px
 		
 			
-			
+.sublink
+	display: none
+.submenu	
+	display: none			
