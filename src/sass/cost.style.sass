@@ -222,14 +222,37 @@ header
 				min-width: 385px
 
 .questions
+	position: relative
 	padding: 10px 10px 10px 10px
 	background-color: #f3f5f8	
 	min-height: 484px
+	&_wrapper
+		
+		margin: 0 auto
+		width: 65%
+	p
+		display: flex	
+		justify-content: space-between
+		margin-top: 40px
+		// border-bottom: 1px solid #979595
+.btn
+	font-weight: 500
+
+
+
+.btn-primary 
+	--bs-btn-bg:  #f3f5f8
+
+.card
+	--bs-card-border-color: none
+	--bs-card-bg:  #f3f5f8
+
 
 .element
 	padding: 150px
-	height: 623px
+	min-height: 623px
 	background-color: $main-color
+
 
 .contacts
 	margin-bottom: 150px
